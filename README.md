@@ -20,7 +20,7 @@ This is a simple web-based dice game for two players. Each time the "Roll" butto
 - `rollDice()`  
   Generates a random number between 1 and 6.
 
-- `diceStates(numVariable, diceMode)`  
+- `diceStates(numVariable, dicePlayer)`  
   Updates the image of a specific dice (either `.img1` or `.img2`) based on the number rolled.
 
 - `rollDiceBtn()`  

@@ -3,38 +3,38 @@ function rollDice() {
   return randomNumber;
 }
 
-function diceStates(numVariable, diceMode) {
+function diceStates(numVariable,dicePlayer) {
   if (numVariable === 1) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice1.png");
   }
   if (numVariable === 2) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice2.png");
   }
   if (numVariable === 3) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice3.png");
   }
 
   if (numVariable === 4) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice4.png");
   }
 
   if (numVariable === 5) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice5.png");
   }
 
   if (numVariable === 6) {
     document
-      .querySelector(`.dice ${diceMode}`)
+      .querySelector(`.dice ${dicePlayer}`)
       .setAttribute("src", "./images/dice6.png");
   }
 }
